@@ -17,6 +17,13 @@ This plugin allows you to follow a player movement more precisely using MQ actor
     {% include-markdown "projects/mqactorfollow/datatype-actorfollow.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
     <!--tlo-datatypes-end-->
 
-    <!--tlo-linkrefs-start-->
-    [actorfollow]: datatype-actorfollow.md
-    <!--tlo-linkrefs-end-->
+## Examples
+<!--tlo-examples-start-->
+```txt
+${ActorFollow.IsActive} - Plugin Loaded and ready
+${ActorFollow.Status} - Status 0 = off , 1 = on , 2 = paused
+${ActorFollow.WaypointsCount} - Total Number of current waypoints
+${ActorFollow.IsFollowing} - BOOL Is following spawn
+${ActorFollow.IsPaused} - BOOL Is paused
+```
+<!--tlo-examples-end-->

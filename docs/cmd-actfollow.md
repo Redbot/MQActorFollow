@@ -9,11 +9,8 @@ tags:
 
 <!--cmd-syntax-start-->
 ```eqcommand
-/actfollow JohnDoe
-/actfollow 123
-/actfollow pause
-/actfollow resume
-/actfollow off
+/actfollow {<pc name> | <spawn id>}
+/actfollow {pause | resume | off}
 /actfollow ui
 ```
 <!--cmd-syntax-end-->
@@ -26,17 +23,24 @@ This plugin allows you to follow a player movement more precisely using MQ actor
 
 ## Options
 
-`JohnDoe`
+``<pc name>``
 :   follow by pc name
 
-`123`
+    !!! example "`/actfollow JohnDoe`"
+
+``<spawn id>``
 :   follow by pc spawn id
 
-`pause`
+    !!! example "`/actfollow 123`"
 
-`resume`
+``pause``
+:   Paused following.
 
-`off`
+``resume``
+:   Resumed following.
 
-`ui`
+``off``
+:   Stop following.
+
+``ui``
 :   toggles ui
