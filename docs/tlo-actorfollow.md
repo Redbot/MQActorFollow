@@ -5,7 +5,7 @@ tags:
 # `ActorFollow`
 
 <!--tlo-desc-start-->
-Plugin Loaded and ready
+This plugin allows you to follow a player movement more precisely using MQ actors.
 <!--tlo-desc-end-->
 
 ## Associated DataTypes

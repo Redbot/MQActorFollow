@@ -5,24 +5,20 @@ tags:
 # `ActorFollow`
 
 <!--dt-desc-start-->
-Plugin Loaded and ready
+This plugin allows you to follow a player movement more precisely using MQ actors.
 <!--dt-desc-end-->
 
 ## Members
 <!--dt-members-start-->
-### {{ renderMember(name='IsActive') }}
+### {{ renderMember(type='bool', name='IsActive') }}
 
 :   Plugin Loaded and ready
 
-### {{ renderMember(name='FollowState') }}
-
-:   FollowState, 0 = off, 1 = on
-
-### {{ renderMember(name='Status') }}
+### {{ renderMember(type='int', name='Status') }}
 
 :   Status 0 = off , 1 = on , 2 = paused
 
-### {{ renderMember(name='WaypointsCount') }}
+### {{ renderMember(type='int', name='WaypointsCount') }}
 
 :   Total Number of current waypoints
 
@@ -38,4 +34,5 @@ Plugin Loaded and ready
 
 <!--dt-linkrefs-start-->
 [bool]: ../macroquest/reference/data-types/datatype-bool.md
+[int]: ../macroquest/reference/data-types/datatype-int.md
 <!--dt-linkrefs-end-->

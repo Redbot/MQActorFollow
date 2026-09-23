@@ -17,13 +17,11 @@ This plugin allows you to follow a player movement more precisely using MQ actor
 
 ## Getting Started
 
-Quick start instructions to get users up and going
-
 ```txt
 /plugin MQActorFollow
 ```
 
-## Commands
+### Commands
 
 <a href="cmd-actfollow/">
 {% 
@@ -38,17 +36,11 @@ Quick start instructions to get users up and going
         trailing-newlines=false 
      %} {{ readMore('projects/mqactorfollow/cmd-actfollow.md') }}
 
-## Top-Level Objects
+### TLO
 
-## [ActorFollow](tlo-actorfollow.md)
+#### [ActorFollow](tlo-actorfollow.md)
 {% include-markdown "projects/mqactorfollow/tlo-actorfollow.md" start="<!--tlo-desc-start-->" end="<!--tlo-desc-end-->" trailing-newlines=false %} {{ readMore('projects/mqactorfollow/tlo-actorfollow.md') }}
 
-## DataTypes
-
-## [ActorFollow](datatype-actorfollow.md)
-{% include-markdown "projects/mqactorfollow/datatype-actorfollow.md" start="<!--dt-desc-start-->" end="<!--dt-desc-end-->" trailing-newlines=false %} {{ readMore('projects/mqactorfollow/datatype-actorfollow.md') }}
-
-<h2>Members</h2>
 {% include-markdown "projects/mqactorfollow/datatype-actorfollow.md" start="<!--dt-members-start-->" end="<!--dt-members-end-->" %}
 {% include-markdown "projects/mqactorfollow/datatype-actorfollow.md" start="<!--dt-linkrefs-start-->" end="<!--dt-linkrefs-end-->" %}
 
