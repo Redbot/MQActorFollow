@@ -10,25 +10,25 @@ This plugin allows you to follow a player movement more precisely using MQ actor
 
 ## Members
 <!--dt-members-start-->
-### {{ renderMember(type='bool', name='IsActive') }}
+/// member | bool IsActive
+Plugin Loaded and ready
+///
 
-:   Plugin Loaded and ready
+/// member | int Status
+Status 0 = off , 1 = on , 2 = paused
+///
 
-### {{ renderMember(type='int', name='Status') }}
+/// member | int WaypointsCount
+Total Number of current waypoints
+///
 
-:   Status 0 = off , 1 = on , 2 = paused
+/// member | bool IsFollowing
+BOOL Is following spawn
+///
 
-### {{ renderMember(type='int', name='WaypointsCount') }}
-
-:   Total Number of current waypoints
-
-### {{ renderMember(type='bool', name='IsFollowing') }}
-
-:   BOOL Is following spawn
-
-### {{ renderMember(type='bool', name='IsPaused') }}
-
-:   BOOL Is paused
+/// member | bool IsPaused
+BOOL Is paused
+///
 
 <!--dt-members-end-->
 
